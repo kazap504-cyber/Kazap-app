@@ -1,5 +1,5 @@
 // Service Worker minimal - cache offline des assets statiques (PWA légère)
-const CACHE_NAME = 'kazap-v2';
+const CACHE_NAME = 'kazap-v3';
 const ASSETS_TO_CACHE = ['/'];
 
 self.addEventListener('install', e => {
